@@ -1,0 +1,115 @@
+{
+  "name": "sales-analytics-agent",
+  "displayName": "🤖 Predictive Sales Analytics Agent",
+  "description": "AI-powered sales analytics, ML forecasting, and strategy simulation using Claude",
+  "version": "1.0.0",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["AI", "Data Science", "Machine Learning"],
+  "keywords": ["sales", "analytics", "machine learning", "forecasting", "AI agent"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "salesAgent.openDashboard",
+        "title": "📊 Open Sales Analytics Dashboard",
+        "category": "Sales Agent"
+      },
+      {
+        "command": "salesAgent.analyzeFile",
+        "title": "🔍 Analyze Sales Data File",
+        "category": "Sales Agent"
+      },
+      {
+        "command": "salesAgent.runForecast",
+        "title": "📈 Run Sales Forecast",
+        "category": "Sales Agent"
+      },
+      {
+        "command": "salesAgent.simulateStrategy",
+        "title": "🎯 Simulate Business Strategy",
+        "category": "Sales Agent"
+      },
+      {
+        "command": "salesAgent.generateReport",
+        "title": "📝 Generate BI Report",
+        "category": "Sales Agent"
+      },
+      {
+        "command": "salesAgent.chat",
+        "title": "💬 Chat with Sales Agent",
+        "category": "Sales Agent"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "salesAnalytics",
+          "title": "Sales Analytics Agent",
+          "icon": "$(graph)"
+        }
+      ]
+    },
+    "views": {
+      "salesAnalytics": [
+        {
+          "type": "webview",
+          "id": "salesAgent.chatView",
+          "name": "AI Agent Chat"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Sales Analytics Agent",
+      "properties": {
+        "salesAgent.anthropicApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Anthropic API Key for Claude AI",
+          "markdownDescription": "Your [Anthropic API Key](https://console.anthropic.com/)"
+        },
+        "salesAgent.defaultModel": {
+          "type": "string",
+          "default": "claude-sonnet-4-20250514",
+          "description": "Claude model to use"
+        },
+        "salesAgent.forecastHorizon": {
+          "type": "number",
+          "default": 12,
+          "description": "Number of months to forecast ahead"
+        },
+        "salesAgent.confidenceLevel": {
+          "type": "number",
+          "default": 0.95,
+          "description": "Confidence interval level (0-1)"
+        }
+      }
+    },
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "salesAgent.analyzeFile",
+          "when": "resourceExtname == .csv || resourceExtname == .json",
+          "group": "salesAgent"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "csv-parse": "^5.5.6",
+    "simple-statistics": "^7.8.3",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.x",
+    "typescript": "^5.4.0"
+  }
+}

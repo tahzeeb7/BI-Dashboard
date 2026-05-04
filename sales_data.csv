@@ -1,0 +1,33 @@
+date,product,region,salesperson,quantity,unit_price,revenue,cost,profit,channel,customer_segment,discount
+2024-01-15,ProSuite X,North America,Alice Chen,2,2500.00,5000.00,2800.00,2200.00,Direct,Enterprise,0.00
+2024-01-18,DataCore Pro,Europe,Bob Martinez,3,1800.00,5400.00,3100.00,2300.00,Partner,SMB,0.05
+2024-01-22,AnalyticsHub,Asia Pacific,Carol Singh,1,3200.00,3200.00,1850.00,1350.00,Online,Startup,0.10
+2024-02-05,SalesBoost,North America,David Kim,4,1200.00,4800.00,2700.00,2100.00,Reseller,SMB,0.00
+2024-02-12,CloudCRM,Latin America,Eva Brown,5,950.00,4750.00,2800.00,1950.00,Direct,Government,0.08
+2024-02-20,ProSuite X,Europe,Alice Chen,2,2125.00,4250.00,2380.00,1870.00,Enterprise,Enterprise,0.15
+2024-03-03,DataCore Pro,North America,Bob Martinez,2,1800.00,3600.00,2070.00,1530.00,Direct,Enterprise,0.00
+2024-03-14,AnalyticsHub,Middle East,Carol Singh,1,2880.00,2880.00,1670.00,1210.00,Partner,Government,0.10
+2024-03-25,SalesBoost,Asia Pacific,David Kim,6,1020.00,6120.00,3530.00,2590.00,Online,Startup,0.15
+2024-04-08,CloudCRM,North America,Eva Brown,3,950.00,2850.00,1670.00,1180.00,Reseller,SMB,0.00
+2024-04-17,ProSuite X,Asia Pacific,Alice Chen,3,1875.00,5625.00,3160.00,2465.00,Direct,Enterprise,0.25
+2024-04-28,DataCore Pro,Europe,Bob Martinez,4,1530.00,6120.00,3530.00,2590.00,Partner,SMB,0.15
+2024-05-06,AnalyticsHub,North America,Carol Singh,2,3200.00,6400.00,3690.00,2710.00,Enterprise,Enterprise,0.00
+2024-05-19,SalesBoost,Latin America,David Kim,3,1020.00,3060.00,1770.00,1290.00,Online,Government,0.15
+2024-05-30,CloudCRM,Middle East,Eva Brown,4,665.00,2660.00,1540.00,1120.00,Direct,Startup,0.30
+2024-06-04,ProSuite X,Europe,Alice Chen,1,2500.00,2500.00,1440.00,1060.00,Partner,SMB,0.00
+2024-06-15,DataCore Pro,Asia Pacific,Bob Martinez,5,1350.00,6750.00,3890.00,2860.00,Reseller,Enterprise,0.25
+2024-06-27,AnalyticsHub,North America,Carol Singh,3,2720.00,8160.00,4710.00,3450.00,Direct,Enterprise,0.15
+2024-07-09,SalesBoost,Europe,David Kim,2,1200.00,2400.00,1390.00,1010.00,Online,SMB,0.00
+2024-07-22,CloudCRM,North America,Eva Brown,6,950.00,5700.00,3290.00,2410.00,Enterprise,Enterprise,0.00
+2024-08-05,ProSuite X,Latin America,Alice Chen,2,1750.00,3500.00,2020.00,1480.00,Direct,Government,0.30
+2024-08-18,DataCore Pro,North America,Bob Martinez,3,1800.00,5400.00,3110.00,2290.00,Partner,Enterprise,0.00
+2024-09-01,AnalyticsHub,Asia Pacific,Carol Singh,1,2400.00,2400.00,1390.00,1010.00,Reseller,Startup,0.25
+2024-09-14,SalesBoost,Middle East,David Kim,4,840.00,3360.00,1940.00,1420.00,Online,SMB,0.30
+2024-09-26,CloudCRM,Europe,Eva Brown,5,807.50,4037.50,2330.00,1707.50,Direct,Government,0.15
+2024-10-08,ProSuite X,North America,Alice Chen,4,2500.00,10000.00,5770.00,4230.00,Enterprise,Enterprise,0.00
+2024-10-21,DataCore Pro,Asia Pacific,Bob Martinez,2,1530.00,3060.00,1770.00,1290.00,Partner,Startup,0.15
+2024-11-04,AnalyticsHub,Europe,Carol Singh,3,2720.00,8160.00,4710.00,3450.00,Direct,SMB,0.15
+2024-11-17,SalesBoost,North America,David Kim,5,1200.00,6000.00,3460.00,2540.00,Reseller,Enterprise,0.00
+2024-12-02,CloudCRM,Latin America,Eva Brown,4,665.00,2660.00,1540.00,1120.00,Online,Government,0.30
+2024-12-15,ProSuite X,North America,Alice Chen,3,2500.00,7500.00,4330.00,3170.00,Direct,Enterprise,0.00
+2024-12-28,DataCore Pro,Europe,Bob Martinez,6,1530.00,9180.00,5300.00,3880.00,Enterprise,SMB,0.15
